@@ -1,0 +1,16 @@
+3、某评估单位要对学生的学习情况进行评估，需要计算每个学生的平均学习成绩。编程序，从终端逐次输入一个学生n门课程的成绩，计算并输出他的平均成绩。 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+double mark,n;
+cin>>n;
+for (int i=1;i<n;i++)
+{
+cin>>mark;
+i+=1;
+}
+cout<<mark/n<<endl;
+return 0;
+}
